@@ -1,0 +1,674 @@
+body {
+	background-image:url(images/hsfootball.jpg);
+}
+
+@font-face {
+    font-family: RedZone;
+    src: url('fonts/RedZone.ttf');
+}
+
+.wrapper {
+	height: 720px;
+	width: 1171px;
+	position:relative;
+	margin-top:40px;
+	margin:35px auto;
+background-color:#2A5C00;    /*	 #193700 */
+	border:solid thin black;
+	border-radius:2%;
+	
+	
+}
+
+.wrapper2 {
+	height: 450px;
+	width: 450px;
+	position: relative;
+	margin:70px auto;
+	background-color:#80b3ff;
+	border:solid thin black;
+	border-radius:7%;
+
+}
+
+.wrapper3 {
+	height: 550px;
+	width: 450px;
+	clear:both;
+	margin-top:550px;
+	margin-left:580px;
+	background-color:darkolivegreen;
+	border:solid thin black;
+	border-radius:7%;
+	padding-left:70px;
+
+}
+
+.wrapper4 {
+	height: 550px;
+	width: 100%;
+	position: relative;
+	margin:70px auto;
+	background-color:transparent;
+	border:solid thin transparent;
+	border-radius:7%;
+	padding-left:70px;
+
+}
+
+h4 {
+/*
+	border:solid thin black;
+	background-color:#428bca;
+*/
+	border-radius:3%;
+}
+
+.banner {
+	background-image: url(images/faBanner2.jpg);
+	border: solid thin black;
+	padding-right: 20px;
+	padding-top:10px;
+	height:125px;
+	width: 1152px;
+	position:relative;
+	margin: 0px auto;
+	box-shadow: 0px 20px 60px 30px white;
+}
+
+.banner h2 {
+	text-align: right;
+	font-family: "RedZone";
+	color:black;
+	text-shadow: 1px 1px white;
+	font-size:20pt;
+	margin-top: 5px;
+/*	line-height: 200%;*/
+}
+
+.logs ul {
+	float:right;
+	margin-top:-24px;
+}
+
+.logs ul li {
+	display:inline;
+	font-weight:bold;
+	font-size:15pt;
+	font-family: "Calibri";
+}
+
+.logs ul li a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:15pt;
+	width:25px;
+	padding: 7px;
+}
+
+.logs ul li a:hover {
+	text-decoration: underline;
+}
+
+.display, h3 {
+	font-family: "Calibri";
+	text-decoration: underline;
+	font-size:32pt;
+	margin-top:20px;
+	margin-left:50px;
+	text-align: justify;
+	position: relative;
+}
+
+.display, h4 {
+	font-family: "Calibri";
+	text-decoration: underline;
+	font-size:24pt;
+	margin-top:20px;
+	margin-left:40px;
+	position: relative;
+}
+
+.display, tr {
+	font-family:"Calibri";
+	font-size:14pt;
+	text-decoration:none;
+	
+}
+
+.display, tr, td {
+	margin-left:138px;
+	text-align: center;
+	clear:both;
+}
+
+.home {
+	float:left;
+	clear:both;
+	position:relative;
+	width:510px;
+	margin-left:35%;
+	margin-top:10px;
+}
+
+.home a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.home a:hover {
+	color:whitesmoke;
+	text-decoration: underline;
+}
+
+.makeNew {
+	clear:both;
+	position:relative;
+	width:190px;
+	margin-left:55%;
+	margin-top:250px;
+}
+
+.makeNew a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration:none;
+	color:whitesmoke;
+}
+
+.makeNew a:hover {
+	color:whitesmoke;
+	text-decoration:underline;
+}
+
+.adminHome {
+	clear:both;
+	position:relative;
+	width:95px;
+	margin-top:300px;
+/*	margin-left:810px;*/
+	margin-left:60%;
+}
+  
+.adminHome a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.adminHome a:hover {
+	text-decoration: underline;
+}
+
+.bigBox h3 {
+	margin-left:35%;
+}
+
+/* Style The Dropdown Button */
+.dropbtn a{
+    background-color: transparent;
+    color: black;
+		width:150px;
+		font-family: "Stencil";
+    padding-left: 19px;
+		padding-right: 19px;
+    font-size: 30px;
+/*    border: solid thin black;*/
+		border-top:none;
+    cursor:pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+		margin-left:22%;
+		width:150px;
+		margin-bottom:-500px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #2A5C00;
+		width:250px;
+/*		border: solid thin black;*/
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content li a {
+		text-align:center;
+		font-family: "Calibri";
+		font-size:16pt;
+    color: black;
+		width:250px;
+		margin-left:-55px;
+		padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+		text-align:justify;
+		border-top:solid thin transparent;
+		border-bottom:solid thin transparent;
+}
+
+.dropdown-content ul {
+			list-style-type: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #6EB732;
+	border-top:solid thin black;
+	border-bottom:solid thin black;
+	box-shadow: 5px 8px 16px 0px black;
+/*	padding: 9px 16px;*/
+	
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #6EB732;
+}
+
+.extras {
+	
+}
+
+.extras ul {
+	width:1650px;
+	float:left;
+	margin-top:-30px;
+	margin-left:7%
+	
+}
+
+.extras ul li {
+		display:inline;
+		font-family: "Calibri";
+		display:inline;
+		font-weight:bold;
+		font-size:15pt;
+		font-family: "Calibri";
+		
+}
+
+.extras ul li a {
+	text-decoration: none;
+	color:black;
+	
+	
+}
+
+.extras ul li a:hover {
+	text-decoration:underline;
+}
+
+
+.extras2 ul {
+	width:150px;
+	float:left;
+	clear:both;
+	margin-top:30px;
+	margin-left:20%
+	
+}
+
+.extras2 ul li {
+		display:inline;
+		font-family: "Calibri";
+		display:inline;
+		font-weight:bold;
+		font-family: "Calibri";
+		
+}
+
+.extras2 ul li a {
+	text-decoration: none;
+	color:white;
+	font-size:23pt;
+	
+}
+
+.extras2 ul li a:hover {
+	text-decoration:underline;
+}
+
+
+.upload {
+	width:800px;
+	height: 310px;
+	padding:10px;
+	margin: 150px auto;
+	background-color:whitesmoke;
+}
+
+.upload ul {
+	height: 40px;
+}
+
+.upload ul li {
+	padding:10px;
+	display:inline;
+	margin-left:15%;
+	font-family: "Calibri";
+	font-size:15pt;
+}
+
+.o_features {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:16%;
+	margin-top:-20px;
+	margin-bottom: 25px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+	
+}
+
+
+
+.d_features {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:16%;
+	margin-top:-20px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+	
+}
+
+
+h3 {
+	clear:both;
+	color:darkolivegreen;
+	font-family: "Stencil";
+	margin-left:33%;
+	width:668px;
+	padding:5px;
+	background-color:black;
+	
+}
+
+.edit {
+	clear:both;
+	background-color:whitesmoke;
+	width:250px;
+	margin-left:30%;
+}
+
+.editTitle {
+	clear:both;
+	float:left;
+	color:darkolivegreen;
+	font-family: "Stencil";
+	margin-top:1%;
+	margin-left:40%;
+/*	padding:5px;*/
+	background-color:black;
+	
+}
+
+
+
+.search {
+		clear:both;
+		float:left;
+		margin-left:69%;
+		margin-top:.5%;
+		border: solid thin black;
+		padding:10px;
+		background-color:black;
+			
+}
+
+.s_features {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:45%;
+	margin-top:90px;
+	margin-bottom: 25px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;	
+}
+
+.o_all {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:240px;
+	margin-top:-20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
+
+.d_all {
+		float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:240px;
+	margin-top:-20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
+
+
+.pages {
+	float:left;
+	clear:both;
+	margin-left:50%;
+	margin-top:-190px;
+	
+	
+	
+}
+
+.pages li {
+	display:inline;
+	background-color:whitesmoke;
+}
+
+.cart{
+	float:left;
+	clear:both;
+	position:relative;
+	margin-left:27%;
+	margin-top:8%;
+	background-color:darkolivegreen;
+	border: solid thin white;
+	border-radius: 5%;
+	padding: 15px;
+	width:900px;
+}
+
+.cart a {
+	color:black;
+	text-decoration: none;
+}
+
+.cart a:hover {
+	color:white;
+	
+}
+
+
+.linx1 {
+	clear:both;
+	margin-left:35%;
+	margin-top:-30px;
+	width:150px;
+	background-color:black;
+	padding-right:30px;
+}
+
+.linx1 ul li {
+	display:inline;
+}
+
+.linx1 ul li a {
+	color:whitesmoke;
+}
+
+.linx1 a:hover {
+	text-decoration: none;
+}
+
+.linx2 a:hover {
+	text-decoration: none;
+}
+
+.linx2 {
+	clear:both;
+	margin-left:57%;
+	width:155px;
+	margin-top:-35px;
+	background-color:black;
+}
+
+.linx2 ul li {
+	display:inline;
+}
+
+.linx2 ul li a {
+	color:whitesmoke;
+}
+
+.message {
+	float:left;
+	clear:both;
+	margin-left:35%;
+	margin-top:12%;
+	
+}
+
+.message p {
+	font-family: "Calibri";
+	font-size:15pt;
+	color:white;
+}
+
+.message a {
+	color:whitesmoke;
+	font-size:15pt;
+	font-family: "Calibri";
+	margin-left: 22%;
+}
+
+.orders {
+	width: 1300px;
+	float:left;
+	clear:both;
+	margin-left:16%;
+	margin-top:10%;
+	background-color:darkolivegreen;
+}
+
+.recents {
+	clear:both;
+	width: 1400px;
+	padding:50px;
+	margin-left:13%;
+	margin-top:100px;
+}
+
+.recents, h4 {
+	color:white;
+	background-color:black;
+}
+
+.pendingPlayers {
+	margin-left:13.7%;
+	clear:both;
+	width:1500px;
+	height:800px;
+	padding-left:30px;
+	padding-right:30px;
+	border:solid thin black;
+	border-radius:7%;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.bidAll {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:100px;
+	margin-top:20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
+
+.adminHome {
+	float:left;
+	clear:both;
+	width: 1300px;
+	height:500px;
+	margin-left:300px;
+}
+
+.adminHome h3 {
+	margin-top:-20%;
+	margin-left:30%;
+}
+
+.adminHome ul li {
+	display: inline;
+	margin-left:90px;
+}
+
+.signContract {
+}
+
+.done  {
+	float:left;
+	clear:both;
+	margin-top:7%;
+	margin-left:45%;
+}
+
+.done p {
+	font-family: "Stencil";
+	font-size:28pt;
+	color:white;	
+}
+
+.signed {
+	clear:both;
+	margin-top: 18%;
+	margin-left: 22%;
+	width:1000px;
+	padding:10px;
+}

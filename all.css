@@ -1,0 +1,628 @@
+body {
+	background-image:url(images/bigBack.jpg);
+}
+
+@font-face {
+    font-family: RedZone;
+    src: url('fonts/RedZone.ttf');
+}
+
+.wrapper {
+	height: 720px;
+	width: 1171px;
+	position:relative;
+	margin-top:40px;
+	margin:35px auto;
+background-color:#2A5C00;    /*	 #193700 */
+	border:solid thin black;
+	border-radius:2%;
+	
+	
+}
+
+.wrapper2 {
+	height: 450px;
+	width: 450px;
+	position: relative;
+	margin:70px auto;
+	background-color:#80b3ff;
+	border:solid thin black;
+	border-radius:7%;
+
+}
+
+.wrapper3 {
+	height: 550px;
+	width: 450px;
+/*	position: relative;*/
+	
+	margin-top:550px;
+	margin-left:580px;
+	background-color:darkolivegreen;
+	border:solid thin black;
+	border-radius:7%;
+	padding-left:70px;
+
+}
+
+.wrapper4 {
+	height: 550px;
+	width: 100%;
+	position: relative;
+	margin:70px auto;
+	background-color:transparent;
+	border:solid thin transparent;
+	border-radius:7%;
+	padding-left:70px;
+
+}
+
+h4 {
+/*
+	border:solid thin black;
+	background-color:#428bca;
+*/
+	border-radius:3%;
+}
+
+.banner {
+	background-image: url(images/faBanner2.jpg);
+	border: solid thin black;
+	padding-right: 20px;
+	padding-top:10px;
+	height:125px;
+	width: 1152px;
+	position:relative;
+	margin: 0px auto;
+	box-shadow: 0px 20px 60px 30px white;
+}
+
+.banner h2 {
+	text-align: right;
+	font-family: "RedZone";
+	color:black;
+	text-shadow: 1px 1px white;
+	font-size:20pt;
+	margin-top: 5px;
+/*	line-height: 200%;*/
+}
+
+.logs ul {
+	float:right;
+	margin-top:-24px;
+}
+
+.logs ul li {
+	display:inline;
+	font-weight:bold;
+	font-size:15pt;
+	font-family: "Calibri";
+}
+
+.logs ul li a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	font-size:15pt;
+	width:25px;
+	padding: 7px;
+}
+
+.logs ul li a:hover {
+	text-decoration: underline;
+}
+
+.display, h3 {
+	font-family: "Calibri";
+	text-decoration: underline;
+	font-size:32pt;
+	margin-top:20px;
+	margin-left:40px;
+	text-align: justify;
+	position: relative;
+}
+
+.display, h4 {
+	font-family: "Calibri";
+	text-decoration: underline;
+	font-size:24pt;
+	margin-top:20px;
+	margin-left:40px;
+	position: relative;
+}
+
+.display, tr {
+	font-family:"Calibri";
+	font-size:14pt;
+	text-decoration:none;
+	
+}
+
+.display, tr, td {
+	margin-left:138px;
+	text-align: center;
+	clear:both;
+}
+
+.home {
+	float:left;
+	clear:both;
+	position:relative;
+	width:510px;
+	margin-left:35%;
+	margin-top:10px;
+}
+
+.home a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.home a:hover {
+	color:whitesmoke;
+	text-decoration: underline;
+}
+
+.makeNew {
+	clear:both;
+	position:relative;
+	width:190px;
+	margin-left:55%;
+	margin-top:250px;
+}
+
+.makeNew a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration:none;
+	color:whitesmoke;
+}
+
+.makeNew a:hover {
+	color:whitesmoke;
+	text-decoration:underline;
+}
+
+.adminHome {
+	clear:both;
+	position:relative;
+	width:95px;
+	margin-top:300px;
+/*	margin-left:810px;*/
+	margin-left:60%;
+}
+  
+.adminHome a {
+	font-family: "Calibri";
+	font-size:15pt;
+	text-decoration: none;
+	color:whitesmoke;
+}
+
+.adminHome a:hover {
+	text-decoration: underline;
+}
+
+
+
+/* Style The Dropdown Button */
+.dropbtn a{
+    background-color: transparent;;
+    color: black;
+		width:150px;
+		font-family: "Stencil";
+    padding-left: 19px;
+		padding-right: 19px;
+    font-size: 30px;
+/*    border: solid thin black;*/
+		border-top:none;
+    cursor:pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+		margin-left:22%;
+		width:150px;
+		margin-bottom:-500px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #2A5C00;
+		width:250px;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content li a {
+		text-align:center;
+		font-family: "Calibri";
+		font-size:16pt;
+    color: black;
+		width:250px;
+		margin-left:-55px;
+		padding: 9px 16px;
+    text-decoration: none;
+    display: block;
+		text-align:left;
+		border-top:solid thin transparent;
+		border-bottom:solid thin transparent;
+}
+
+.dropdown-content ul {
+			list-style-type: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #6EB732;
+	border-top:solid thin black;
+	border-bottom:solid thin black;
+	box-shadow: 5px 8px 16px 0px black;
+/*	padding: 9px 16px;*/
+	
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #6EB732;
+}
+
+.extras {
+	
+}
+
+.extras ul {
+	width:1650px;
+	float:left;
+	margin-top:-30px;
+	margin-left:7%
+	
+}
+
+.extras ul li {
+		display:inline;
+		font-family: "Calibri";
+		display:inline;
+		font-weight:bold;
+		font-size:15pt;
+		font-family: "Calibri";
+		
+}
+
+.extras ul li a {
+	text-decoration: none;
+	color:black;
+	
+	
+}
+
+.extras ul li a:hover {
+	text-decoration:underline;
+}
+
+.extras2 ul {
+	width:150px;
+	float:left;
+/*	clear:both;*/
+	margin-top:-23px;
+/*	margin-left:0%*/
+	
+}
+
+.extras2 ul li {
+		display:inline;
+		font-family: "Calibri";
+		display:inline;
+		font-weight:bold;
+		font-family: "Calibri";
+		
+}
+
+.extras2 ul li a {
+	text-decoration: none;
+	color:black;
+	font-size:23pt;
+	
+}
+
+.extras2 ul li a:hover {
+	text-decoration:underline;
+}
+
+
+.upload {
+	width:650px;
+	margin: 150px auto;
+	background-color:white;
+}
+
+.o_features {
+	float:left;
+	padding:15px;
+	margin-left:240px;
+	margin-top:-20px;
+	margin-bottom: 25px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+	
+}
+
+
+
+.d_features {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:240px;
+	margin-top:-20px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+	
+}
+
+
+h3 {
+	clear:both;
+	color:darkolivegreen;
+	font-family: "Stencil";
+	margin-left:33%;
+	margin-top:50px;
+	width:660px;
+	font-size:40pt;
+	background-color:rgba(0,0,0,0.3);
+	text-shadow: 1px 1px black;
+	
+}
+
+.editTitle {
+	clear:both;
+	float:left;
+	color:darkolivegreen;
+	font-family: "Stencil";
+	margin-left:8%;
+	margin-top:100px;
+	background-color:black;
+	
+}
+
+.editTitle h4 {
+/*	margin-top:15%;*/
+	color:darkolivegreen;
+	font-family: "Stencil";
+	border-radius: 20%;
+	
+}
+
+.edit {
+		clear:both;
+		float:left;
+/*		width:300px;*/
+		padding:15px;
+		margin-left:5%;
+		margin-top:50px;
+		background-color:white;
+		color:black;
+}
+
+.editForm {
+/*		margin-left:8%;*/
+}
+
+.search {
+		clear:both;
+		float:left;
+		margin-left:65%;
+		margin-top:20px;
+/*		margin-bottom: -50px;*/
+		border: solid thin black;
+		padding:10px;
+		background-color:black;
+			
+}
+
+.s_features {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:45%;
+	margin-top:90px;
+	margin-bottom: 25px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;	
+}
+
+.bground {
+	margin-left:13%;
+	clear:both;
+	width:1500px;
+	height:1300px;
+	padding-left:30px;
+	padding-right:30px;
+	border:solid thin black;
+	border-radius:7%;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.bground h3 {
+	width: 670px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.o_all {
+	float:left;
+/*	clear:both;*/
+	padding:15px;
+	margin-left:100px;
+	margin-top:-20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
+
+.d_all {
+	float:left;
+	padding:15px;
+	margin-left:7%;
+	margin-top:-20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
+
+
+.pages {
+	float:left;
+	clear:both;
+	margin-left:50%;
+	margin-top:-190px;
+	
+	
+	
+}
+
+.pages li {
+	display:inline;
+	background-color:whitesmoke;
+}
+
+.editTitle {
+		width: 400px;
+		height:70px;
+		border-radius: 40%;
+/*		padding: 5px;*/
+		margin-top:10px;
+}
+
+.editTitle h4 {
+	color:darkolivegreen;
+	font-family: "Calibri";
+	background-color:black;
+	width:230px;
+	margin-left:80px;
+	margin-top:15px;
+}
+
+.editForm {
+	margin-left:12%;
+}
+
+.edit {
+		width:300px;
+		padding:15px;
+		margin-left:9.8%;
+		margin-bottom: 30px;
+/*		margin-top:50px;*/
+		background-color:darkolivegreen;
+		color:black;
+		font-family: "Calibri";
+		font-size:15pt;
+		border-radius: 7%;
+		border:solid thick black;
+}
+
+.trans {
+	float:right;
+	clear:both;
+	margin-right:20%;
+	margin-top:-30%;
+	background-color:rgba(0,0,0,0.85);
+	width:450px;
+	height:90px;
+	border-radius:30%;
+}
+
+.trans p {
+	font-family: "Calibri";
+	font-size: 28pt;
+	font-weight:bold;
+	color:darkolivegreen;
+	margin: 10px auto;
+/*	padding: 3px;*/
+	width:350px;
+	
+}
+
+.orders {
+	width: 1100px;
+	padding:15px;
+	float:right;
+	clear:both;
+	margin-right:4%;
+	margin-top:-25%;
+	background-color:rgba(0,0,0,0.4);
+	border: solid thick black;
+	border-radius: 7%;
+}
+
+.done {
+	float:right;
+	clear:both;
+	position:relative;
+	margin-right:20%;
+	margin-top:-195px;
+	background-color:rgba(0,0,0,0.85);
+	width:350px;
+	height:90px;
+	border-radius:30%;
+}
+
+.done p {
+	font-family: "Calibri";
+	font-size: 28pt;
+	font-weight:bold;
+	color:darkolivegreen;
+	margin-left:30px;
+	width:250px;
+}
+
+.signed {
+	width: 1100px;
+	padding:15px;
+	position:relative;
+	float:right;
+	clear:both;
+	margin-right:4%;
+	margin-top:-95px;
+	background-color:rgba(0,0,0,0.4);
+	border: solid thick black;
+	border-radius: 7%;
+}
+
+.srch {
+	float:left;
+	padding:15px;
+	margin-left:10%;
+	margin-top:-20px;
+	margin-bottom: 100px;
+	height:290px;
+	width:210px;;
+	background-color: darkolivegreen;
+	border: solid thin whitesmoke;
+	border-radius:10%;
+}
